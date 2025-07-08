@@ -3,8 +3,6 @@
 
 
 
-
-
 @media screen and (min-width:769px) and (max-width:992px) {
     body {
         background:linear-gradient(#DBDEE0,#779DB6,#446F8B,#1F4761,#082436,#001F33);
@@ -12,7 +10,8 @@
     }
 
     #Login {
-        width: 90vw;
+        width: 70vw;
+        height: 60%;
     }
     
     div#imagem {
@@ -37,6 +36,7 @@
     
     #Login {
         width:970px;
+        height: 60%;
     }
 
     div#imagem {
@@ -62,10 +62,11 @@
 
     #Login {
         width: 990px;
+        height: 60%;
     }
     
     div#imagem {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
     }
@@ -75,7 +76,8 @@
     }
 
     #Formulario {
-        float: left;
+        float: right;
         width: 50%;
     }
+    
 }
