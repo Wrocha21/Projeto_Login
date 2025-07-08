@@ -61,7 +61,23 @@ div#Formulario > p {
     color: white;
 }
 
-label {
-    color: white;
-    
+div.campo {
+    display: flex;
+    flex-direction: column;
 }
+
+
+div.inputs > input {
+    padding: 12px;
+    background-color: rgb(220, 241, 245);
+}
+
+div.campo > label {
+    color: white;
+}
+
+div.inputs {
+    display: flex;
+    gap: 5px;
+}
+
