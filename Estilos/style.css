@@ -69,6 +69,7 @@ div.campo {
 
 div.inputs > input {
     padding: 12px;
+    width: 420px;
     background-color: rgb(220, 241, 245);
 }
 
@@ -78,6 +79,17 @@ div.campo > label {
 
 div.inputs {
     display: flex;
+    margin-bottom: 19px;
     gap: 5px;
+    background-color: rgb(124, 207, 255);
+    border-radius: 100px;
 }
 
+span.material-icons {
+    color: white;
+    padding: 10px;
+}
+
+input.Inp {
+    border: 1px solid rgb(124, 207, 255);
+}
