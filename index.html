@@ -2,7 +2,8 @@
 <html lang="pt-br">
 
 <head>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,22 +28,23 @@
             </div>
             <div id="Formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) ao meu site!, <br> Faça o Login para Continuar</p>
-                <form action="login.php" method="post">
-                    <p>
-                        <label for="1login"></label>
-                        <input type="email" name="mail" id="1Login" required placeholder="Seu e-mail">
-                    </p>
-                    <p>
-                        <label for="1pas"></label>
-                        <input type="password" name="pas" id="1pas" minlength="8" required placeholder="Sua Senha">
-                    </p>
+                <p>Seja bem-vindo(a) ao meu site!, Faça o Login para Continuar</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons md-20">person</span>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons md-20">vpn_key</span>
+                        <input type="password" name="senha" id="1senha" placeholder="Sua Senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <label for="isenha">Senha</label>
 
-                    <p>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Limpar">
-                    </p>
-
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.html">
+                        Esqueci a Senha <span class="material-icons md-20">mail</span>
+                    </a>
                 </form>
 
 

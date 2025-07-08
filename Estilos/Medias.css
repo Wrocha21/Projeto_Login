@@ -32,18 +32,46 @@
     }
     
     #Login {
-        width:92vw;
-        height: 50vh;
+        width:970px;
     }
 
     div#imagem {
         float: left;
-        width: 40%;
+        width: 50%;
         height: 100%;
+    }
+
+    div#Formulario > p {
+        font-size: 1em;
     }
 
     #Formulario {
         float: right;
-        width: 60%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background:linear-gradient(#DBDEE0,#779DB6,#446F8B,#1F4761,#082436,#001F33);
+    }
+
+    #Login {
+        width: 990px;
+    }
+    
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#Formulario > p {
+        font-size: 1.2em;
+    }
+
+    #Formulario {
+        float: left;
+        width: 50%;
     }
 }
