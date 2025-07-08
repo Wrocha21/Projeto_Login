@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width:768px) and (max-width:992px) {
+
+
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
     body {
         background:linear-gradient(#DBDEE0,#779DB6,#446F8B,#1F4761,#082436,#001F33);
 
